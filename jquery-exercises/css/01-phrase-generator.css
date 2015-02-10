@@ -1,0 +1,51 @@
+body {
+    background-color: #bf0ed9;
+    color: #f8ffd6;
+}
+
+.message {
+    cursor: pointer;
+    font-size: 200px;
+}
+
+.btn {
+    border: 2px solid;
+    border-radius: 50%;
+    margin-top: 20px;
+    padding: 18px;
+    color: #f8ffd6;
+    border-color: #f8ffd6;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #f8ffd6;
+}
+
+.btn-refresh {
+    background-color: #bf0ed9;
+}
+.btn-refresh:hover {
+    background-color: #d519f0;
+}
+.btn-refresh:active {
+    background-color: #cd0fe9;
+}
+
+.btn-delete {
+    background-color: #bf0ed9;
+    opacity: 0.75;
+}
+.btn-delete:hover {
+    background-color: #ff594f;
+    opacity: 1;
+}
+.btn-delete:active {
+    background-color: #ff493e;
+}
+
+.glyphicon {
+    font-size: 4.5em;
+    display: block;
+    margin: auto;
+}
